@@ -1,5 +1,5 @@
 
-import REMERGE_Methods
+import Methods
 
 
 a=int(input("Which Method You want to use?\n\nEnter:\n0)Logistic Regression (with Grid Search)"
@@ -8,6 +8,6 @@ a=int(input("Which Method You want to use?\n\nEnter:\n0)Logistic Regression (wit
             "4)LSTM Neural Networks\n"
             "5)KNN (with Grid Search)\n6)K-Means Clustering\n\n"))
 print('\n\n')
-print('Niiiice!')
 
-REMERGE_Methods.inputfunction(a)
+
+Methods.inputfunction(a)

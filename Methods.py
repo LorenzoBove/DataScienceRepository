@@ -1,13 +1,13 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler, LabelEncoder
-from Rem_SVM import SVMclassification
-from Rem_CNN import CNNclassification
-from Rem_LSTM import LSTMclassification
-from Rem_RF  import RFclassification
-from Rem_LOGREG import LRclassification
-from Rem_KNN import KNNclassification
-from Rem_K_MEANS_CLUSTERING import KMEANSclusteringfunction
+from SVM import SVMclassification
+from CNN import CNNclassification
+from LSTM import LSTMclassification
+from RF  import RFclassification
+from LOGREG import LRclassification
+from KNN import KNNclassification
+from K_MEANS_CLUSTERING import KMEANSclusteringfunction
 import numpy as np
 
 def inputfunction(a):
