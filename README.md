@@ -1,5 +1,5 @@
 # DataScienceRepository
-Repository with Python Machine Learning and Deep Learning Binary Classification Methods.
+Repository with Python Machine Learning and Deep Learning Classification Methods.
 
 
 
