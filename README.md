@@ -14,3 +14,8 @@ You can customize it by changing the input data and only the feature extraction 
 # DataScienceRepository
 
 In order to use the Repository, please make sure to install python3
+
+Then please initiate a virtual environment.
+First run on your terminal
+
+'''which python3'''
