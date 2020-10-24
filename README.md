@@ -23,7 +23,7 @@ all methods take input train and test data sets obtained with train_test_split b
 
 # Usage
 
-In order to use the Repository, please make sure to use python3.
+In order to use the Repository, please make sure to have python3 installed.
 
 Open your local directory and run 
 
@@ -36,7 +36,7 @@ In case this does not work please run
 ```
 which python3
 ```
-and use the output string to run Start.py
+and use the output to run Start.py
 
 example
 
