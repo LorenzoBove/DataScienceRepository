@@ -18,4 +18,6 @@ In order to use the Repository, please make sure to install python3
 Then please initiate a virtual environment.
 First run on your terminal
 
-'''which python3'''
+```
+which python3
+```
