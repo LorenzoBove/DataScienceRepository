@@ -10,9 +10,11 @@ from KNN import KNNclassification
 from K_MEANS_CLUSTERING import KMEANSclusteringfunction
 import numpy as np
 
+
+    
 def inputfunction(a):
 
-
+    
     print('----------------------PREPROCESSING---------------------------------')
 
 
@@ -20,10 +22,10 @@ def inputfunction(a):
     Data=pd.read_csv(path,sep=',')
 
     print(Data)
-    print(Data.columns)
-
-    X=Data.drop(['species'],axis=1)
-    Y=Data['species'].values
+    
+    classificator=Data.columns[-1]
+    X=Data.drop([classificator],axis=1)
+    Y=Data[classificator].values
     X=np.array(X)
     LE = LabelEncoder()
     Y=LE.fit_transform(Y)
