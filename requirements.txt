@@ -1,0 +1,7 @@
+keras > 2
+numpy > 0
+pandas > 0
+matplotlib > 3
+scikit-learn >0
+
+ 

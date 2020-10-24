@@ -1,6 +1,7 @@
-
+import os
 import Methods
 
+os.system("which python3")
 
 a=int(input("Which Method You want to use?\n\nEnter:\n0)Logistic Regression (with Grid Search)"
             "\n1)SVM (with Grid Search)\n"

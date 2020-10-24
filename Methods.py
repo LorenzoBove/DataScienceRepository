@@ -20,6 +20,7 @@ def inputfunction(a):
     Data=pd.read_csv(path,sep=',')
 
     print(Data)
+    print(Data.columns)
 
     X=Data.drop(['species'],axis=1)
     Y=Data['species'].values
