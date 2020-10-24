@@ -18,7 +18,7 @@ def inputfunction(a):
     print('----------------------PREPROCESSING---------------------------------')
 
 
-    path='test.txt'
+    path='test.csv'
     Data=pd.read_csv(path,sep=',')
 
     print(Data)
