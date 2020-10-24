@@ -1,7 +1,19 @@
 import os
 import Methods
+import subprocess
 
-os.system("which python3")
+
+os.system("pip install virtualenv ")
+result = subprocess.check_output("which python3", shell=True)
+result=str(result)[2:-3]
+os.system("clear")
+
+print("\n\n\n")
+os.system("virtualenv -p "+result+" ./_venv")
+os.system("source ./_venv/bin/activate ")
+os.system("pip3 install -r requirements.txt")
+os.system("clear")
+
 
 a=int(input("Which Method You want to use?\n\nEnter:\n0)Logistic Regression (with Grid Search)"
             "\n1)SVM (with Grid Search)\n"
