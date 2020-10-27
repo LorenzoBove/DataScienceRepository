@@ -5,7 +5,7 @@ Repository with Python Machine Learning and Deep Learning Classification Methods
 
 The Repository contains a set of different Classifiers:
 Logistic Regression, SVM, Random Forest, KNN, LSTM Neural Networks and CNN neural networks.
-test.csv is the input file for the classification.
+The input file test.csv is for the classification.
 In order to use the programs You will need to start form the Start.py which will initialize a virtual environment,
 install all the requirements and then ask you which classifier to use.
 
