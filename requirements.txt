@@ -4,4 +4,4 @@ pandas > 0
 matplotlib > 3
 scikit-learn >0
 requests == 2.25.1
-lxml == 4.6.2 
+lxml == 4.6.3 
